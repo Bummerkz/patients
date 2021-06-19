@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html;">
+
+		<style>
+			.invoice-box {
+				max-width: 800px;
+				margin: auto;
+				padding: 30px;
+				border: 1px solid #eee;
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+				font-size: 16px;
+				line-height: 24px;
+				font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+				color: #555;
+			}
+
+			.invoice-box table {
+				width: 100%;
+				line-height: inherit;
+				text-align: left;
+			}
+
+			.invoice-box table td {
+				padding: 5px;
+				vertical-align: top;
+			}
+
+			.invoice-box table tr td:nth-child(2) {
+				text-align: right;
+			}
+
+			.invoice-box table tr.top table td {
+				padding-bottom: 20px;
+			}
+
+			.invoice-box table tr.top table td.title {
+				font-size: 45px;
+				line-height: 45px;
+				color: #333;
+			}
+
+			.invoice-box table tr.information table td {
+				padding-bottom: 5px;
+			}
+
+			.invoice-box table tr.heading td {
+				background: #eee;
+				border-bottom: 1px solid #ddd;
+				font-weight: bold;
+                width: 100%;
+                text-align: center;
+			}
+
+			.invoice-box table tr.details td {
+				padding-bottom: 20px;
+			}
+
+			.invoice-box table tr.item td {
+				border-bottom: 1px solid #eee;
+			}
+			
+            .invoice-box table tr.result td {
+                background: coral;
+                width: 30%;
+			}
+            .invoice-box table tr.result.item td {
+                background: transparent;
+                width: 30%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="invoice-box">
+			<table cellpadding="0" cellspacing="0">
+				<tr class="top">
+					<td colspan="2">
+						<table>
+							<tr>
+								<td class="title">
+									<img src="./top_logo.png" style="width: 100%; max-width: 300px" />
+								</td>
+								<td>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				
+                <tr class="heading">
+					<td colspan="2">Зерттеу нәтижесi/Результат исследования</td>
+				</tr>
+
+				<tr class="information">
+					<td colspan="2">
+						<table>
+							<tr>
+								<td>
+									Тегi, А.Э. (Ф.И.О):<br />
+									werqwerqewrqwerqwer
+								</td>
+
+								<td>
+									Биоматериал тапсырған күні<br />
+                                    (Дата и время сдачи биоматериала):<br />
+									
+								</td>
+							</tr>
+                            <tr>
+								<td>
+									Туған күні (Дата рождения):<br />
+									01.01.2000
+								</td>
+
+								<td>
+									Тіркеу күні (Время регистрации):<br />
+									22.04.2021 21:17
+								</td>
+							</tr>
+                            <tr>
+								<td>
+                                    Жынысы (Пол):<br />
+                                    Мужской
+								</td>
+
+								<td>
+                                    Дайын болған күні (Дата готовности):<br />
+                                    
+								</td>
+							</tr>
+                            <tr>
+								<td>
+                                    Мекен Жайы (Адрес проживания):<br />
+                                    
+								</td>
+
+								<td>
+                                    Басылған күні (Дата печати):<br />
+                                    22.04.2021 21:17
+								</td>
+							</tr>
+                            <tr>
+								<td colspan="2">
+                                    Дәрігер (Врач): Еникеева М.Х.
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+
+                <tr class="heading">
+					<td colspan="2">Полимеразная цепная реакция (ПЦР)</td>
+				</tr>
+
+				<tr class="heading">
+					<td colspan="2">
+                        <table>
+                            <tr class="result">
+                                <td> 
+                                    Көрсеткіш (Показатель)
+                                </td>
+                                <td>
+                                    Материал исследования
+                                </td>
+                                <td>
+                                    Нәтижесi (Результат)
+                                </td>
+                            </tr>
+                            <tr class="result item">
+                                <td>
+                                    РНК COVID-19 (SARS-CoV-2)
+                                </td>
+                                <td>
+                                    Соскоб из носо-ротоглотки
+                                </td>
+                                <td>
+                                    Отрицательный
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+				</tr>
+
+                <tr>
+                    <td colspan="2">
+                        Дәрігер (Врач): Еникеева М.Х.
+                        <img src="./sign.jpg" width="50">
+                    </td>
+                </tr>
+                    
+                <tr>
+                    <td colspan="2">
+                        Полученные результаты лабораторных исследовании, не являются диагнозом и требуют консультации лечащего врача.
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img src="./stamp.jpg" width="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <img src="./bottom_logo.png">
+                    </td>
+                </tr>
+			</table>
+		</div>
+	</body>
+</html>
